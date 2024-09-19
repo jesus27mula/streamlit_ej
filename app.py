@@ -18,7 +18,7 @@ def main():
         st.text('A través de esta plataforma podremos filtrar los datos para conocer más '
                 'las características de la población de este barco')
 
-        path = 'C:\\Users\\jesus\\PycharmProjects\\streamlit_ej\\sources\\titanic.csv'
+        path = 'sources/titanic.csv'
         df = read_csv(path)
 
         # Seleccionador de filtros del df
@@ -67,7 +67,7 @@ def main():
         st.dataframe(df)
 
     elif choice == 'Gráficos':
-        path = 'C:\\Users\\jesus\\PycharmProjects\\streamlit_ej\\sources\\titanic.csv'
+        path = 'sources/titanic.csv'
         df = read_csv(path)
 
         # Seleccionador de filtros del df
